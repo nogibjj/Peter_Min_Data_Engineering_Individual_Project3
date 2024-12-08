@@ -1,6 +1,9 @@
 # Peter_Min_Data_Engineering_Individual_Project_3
 [![CI/CD Pipeline](https://github.com/nogibjj/Peter_Min_Data_Engineering_Individual_Project3/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Peter_Min_Data_Engineering_Individual_Project3/actions/workflows/cicd.yml)
 
+[Demo Video on YouTube](https://youtu.be/85bLv4lr9Bs)
+&nbsp;&nbsp;![YouTube Video Views](https://img.shields.io/youtube/views/85bLv4lr9Bs)
+
 
 This is the README for my Individual Project 3, which is about building a publicly accessible auto-scaling container using AWS Services and Flask app for the IDS706 - Data Engineering Systems class at Duke University.
 
