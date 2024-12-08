@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Let LLM Analyze CS Jokes!</title>
+</head>
+
+<body>
+    <h1>Get Random Computer Science Jokes:</h1>
+    <form method="GET">
+        <textarea name="get_joke" rows="5" cols="60" placeholder="Use the button below to get a joke and its explanation!"></textarea><br>
+    <button type="submit">Get Joke</button>
+    </form>
+
+    {% if explanation_answer %}
+    <h2>Here is your joke:</h2>
+    <p>{{ joke_text }}</p>
+    <h2>Here is the explanation for your joke:</h2>
+    <p>{{ explanation_answer }}</p>
+    {% endif %}
+
+</body>
+
+</html>
