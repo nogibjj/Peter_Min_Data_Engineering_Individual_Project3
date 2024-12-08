@@ -1,19 +1,13 @@
-# Peter_Min_Data_Engineering_Project12
-[![CI/CD Pipeline](https://github.com/nogibjj/Peter_Min_Data_Engineering_Project12/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Peter_Min_Data_Engineering_Project12/actions/workflows/cicd.yml)
+# Peter_Min_Data_Engineering_Individual_Project_3
+[![CI/CD Pipeline](https://github.com/nogibjj/Peter_Min_Data_Engineering_Individual_Project3/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Peter_Min_Data_Engineering_Individual_Project3/actions/workflows/cicd.yml)
 
 
-This is the README for my Mini Project 12, Dockerized Python Applications for the IDS706 - Data Engineering Systems class at Duke University.
+This is the README for my Individual Project 3, which is about building a publicly accessible auto-scaling container using AWS Services and Flask app for the IDS706 - Data Engineering Systems class at Duke University.
 
 ## Overview
-The idea of this project is to gain an understanding of common Docker commands and apply Docker to package an existing Flask-based Python application and push it to DockerHub remotely.
+The idea of this project is to package an existing Flask app using Docker and using AWS to host the Docker image and make it publicly accessible using AWS ECR and AWS App Runner for auto-scaling feature.
 
-## To use this project:
-- Clone this repo using `git clone ...`
-- Ensure you have downloaded Docker and it is running.
-- Run `make build`. The underlying command will build a Docker image of the code and the app.
-- Run `make run`.
-- Navigate to the first URL provided and use port number 5001 (e.g. http://127.0.0.1:5000)
-- Use the endpoint `/random_cs_jokes` and you will see a random computer science joke being shown to you.
+For my Flask app, I integrated [Jokes API](https://sv443.net/jokeapi/v2/) with a LLM supported by (Groq)[https://console.groq.com/docs/overview]. When a user clicks the button, it will generate a random CS/programming-related joke and ask Llama to explain the joke to them.
 
-## Link to Docker Image
-https://hub.docker.com/repository/docker/petermin123/project12/general
+## Local Flask Run
+![alt text](./assets/local_flask_run.png)
