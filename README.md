@@ -9,5 +9,13 @@ The idea of this project is to package an existing Flask app using Docker and us
 
 For my Flask app, I integrated [Jokes API](https://sv443.net/jokeapi/v2/) with a LLM supported by (Groq)[https://console.groq.com/docs/overview]. When a user clicks the button, it will generate a random CS/programming-related joke and ask Llama to explain the joke to them.
 
+To use the publicly-accessible app hosted by AWS, please visit [this link](https://3sybanupbh.us-east-2.awsapprunner.com/).
+
 ## Local Flask Run
 ![alt text](./assets/local_flask_run.png)
+
+## AWS App Runner Deployment
+![alt text](./assets/aws_app_runner_deployment.png)
+
+## AWS-hosted Domain Access
+![alt text](./assets/app_from_aws_domain.png)
